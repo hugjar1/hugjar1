@@ -1,186 +1,187 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+    */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
+    /* HTML5 display-role reset for older browsers */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
 
-body {
-    line-height: 1;
-}
+    body {
+        line-height: 1;
+    }
 
-ol,
-ul {
-    list-style: none;
-}
+    ol,
+    ul {
+        list-style: none;
+    }
 
-blockquote,
-q {
-    quotes: none;
-}
+    blockquote,
+    q {
+        quotes: none;
+    }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-*{
-    -moz-box-sizing: border-box;
-}
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
 
 
-body{
-    background-color: #e7e5e2;
-    overflow-x: auto;
-    font-family: 'Oswald', sans-serif;
-}
+    /* *{
+        -moz-box-sizing: border-box;
+    } */
 
-.parallax{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-#text{
-    position: absolute;
-    font-size: 5em;
-    color: #333;
-}
-.parallax img{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    pointer-events: none;
-    max-width: 100%;
-    width: auto;
-}
 
-.sec{
-    position: relative;
-    background-color: rgb(58, 58, 58);
-    padding: 5%;
-}
-.sec h2{
-    font-size: 3em;
-    color: #fff;
-    margin-bottom: 10px;
-}
-.sec p{
-    font-size: 2em;
-    color: #fff;
-    font-weight: 300;
-}
+    body{
+        background-color: #e7e5e2;
+        overflow-x: auto;
+        font-family: 'Oswald', sans-serif;
+        height: 100vh;
+    }
+
+    .parallax{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    #text{
+        position: absolute;
+        font-size: 5em;
+        color: #333;
+    }
+    .parallax img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        pointer-events: none;
+        max-width: 100%;
+        width: auto;
+    }
+
+    .sec{
+        position: relative;
+        background-color: rgb(58, 58, 58);
+        padding: 5%;
+    }
+    .sec h2{
+        font-size: 3em;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .sec p{
+        font-size: 2em;
+        color: #fff;
+        font-weight: 300;
+    }

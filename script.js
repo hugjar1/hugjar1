@@ -13,7 +13,25 @@ function updatePositions() {
     layer3.style.bottom = value * -0.75 + 'px';
     layer4.style.bottom = value * -0.5 + 'px';
     layer5.style.bottom = value * -0.35 + 'px';
-    requestAnimationFrame(updatePositions);
+
+    if (value>1000) {
+        document.getElementById('text').hidden = true
+        document.getElementById('layer1').hidden = true
+        document.getElementById('layer2').hidden = true
+        document.getElementById('layer3').hidden = true
+        document.getElementById('layer4').hidden = true
+        document.getElementById('layer5').hidden = true
+
+    }if (value<1000) {
+        
+        document.getElementById('text').hidden = false
+        document.getElementById('layer1').hidden = false
+        document.getElementById('layer2').hidden = false
+        document.getElementById('layer3').hidden = false
+        document.getElementById('layer4').hidden = false
+        document.getElementById('layer5').hidden = false
+        
+    } 
 }
 
-requestAnimationFrame(updatePositions);
+window.addEventListener('scroll', updatePositions);
