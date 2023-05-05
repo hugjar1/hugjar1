@@ -32,6 +32,8 @@ function updatePositions() {
         document.getElementById('layer5').hidden = false
         
     } 
+
+    requestAnimationFrame(updatePositions);
 }
 
-window.addEventListener('scroll', updatePositions);
+updatePositions();
