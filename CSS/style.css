@@ -192,7 +192,6 @@
         max-width: 100%;
         width: auto;
     }
-
     main{
         position: relative;
         background-color: #3a3a3a;
@@ -247,7 +246,6 @@
         
         margin: auto;
     }
-
     label {
         display: block;
         margin-bottom: 8px;
@@ -294,31 +292,26 @@
         height: 32px;
         background-position: -5px -5px;
     }
-
     .sprite-github {
         width: 32px;
         height: 32px;
         background-position: -47px -5px;
     }
-
     .sprite-instagram {
         width: 32px;
         height: 32px;
         background-position: -5px -47px;
     }
-
     .sprite-maps {
         width: 32px;
         height: 32px;
         background-position: -47px -47px;
     }
-
     .sprite-twitter {
         width: 32px;
         height: 32px;
         background-position: -89px -5px;
     }
-
     .sprite-youtube {
         width: 32px;
         height: 32px;
@@ -327,41 +320,52 @@
     footer {
         height: 70%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
     footer div {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: row;
+        margin-bottom: 10px;
     }
     footer div .sprite {
-        margin: 0 10px;
-        /* Adjust the space between icons */
+        margin: 0 15px;
+    }
+    footer h2 {
+        color: #333;
+        margin: 10px 0;
+        /* Add vertical margin to create space */
+        font-size: 35px;
+        /* Adjust the font size for a heading appearance */
+        font-weight: bold;
+        /* Add font weight for emphasis */
     }
 
+    footer p {
+        color: #636262;
+        margin: 0 10px;
+    }
     
     
 
    @media (max-width: 967px) {
        .form p {
            font-size: 100%;
-           /* Adjust font size for smaller screens */
        }
    }
 
    @media (max-width: 479px) {
        .form p {
            font-size: 80%;
-           /* Adjust font size further for even smaller screens */
        }
    }
 
    @media (max-width: 320px) {
        .form p {
            font-size: 50%;
-           /* Adjust font size for the smallest screens */
        }
    }
    @media (max-width: 1023px) {
