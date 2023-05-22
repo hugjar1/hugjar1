@@ -308,7 +308,7 @@
     }
 
     .sprite {
-        background-image: url(/pics/spritesheet1.png);
+        background-image: url(pics/spritesheet1.png);
         background-repeat: no-repeat;
         display: block;
     }
