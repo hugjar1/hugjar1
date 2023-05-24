@@ -136,11 +136,6 @@
         border-spacing: 0;
     }
 
-
-    /* *{
-        -moz-box-sizing: border-box;
-    } */
-
     html {
         scroll-behavior: smooth;
     }
@@ -208,7 +203,7 @@
         background-color: #3a3a3a;
         padding: 5%;
     }
-
+      
     main h2 {
         font-size: 4em;
         color: #fff;
@@ -287,8 +282,8 @@
         display: block;
         width: 60%;
         padding: 10px;
-        background-color: #755747;
-        color: #f9efef;
+        background-color: #e7e5e2;
+        color: #474747;
         border: none;
         border-radius: 4px;
         font-weight: bold;
@@ -304,7 +299,6 @@
     .form p {
         color: #e7e5e2;
         text-align: justify;
-        word-break: break-word;
         max-width: 100%;
         font-size: 150%;
     }
